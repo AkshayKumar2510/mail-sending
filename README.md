@@ -1,9 +1,15 @@
+A Go based project to send monthly email to defined destinations after querying the mongoDB and providing details of "available tokens" for each user.
+
 SSM to read client and email in dev/stage/prod
+
 Verify email identity in SES
 
 Need variables:
+
 FROM : from email id "root@imfo.se"
+
 SSM_PATH : containing json 
+
 `{
 "org1": {
 "to": "abc@gmail.com, def@gmail.com",
@@ -23,8 +29,13 @@ SSM_PATH : containing json
 }`
 
 MONGO_URI : containing mongoDB string uri
+
 MONGO_DATABASE : database name ("demo")
+
 MONGO_COLLECTION : collection name ("tokenLimit")
+
 SUBJECT : email subject
+
 BUCKET : where html template is placed on s3
+
 KEY : directory and name of file in S3 bucket

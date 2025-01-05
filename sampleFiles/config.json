@@ -1,0 +1,17 @@
+{
+  "org1": {
+    "to": "abc@gmail.com, def@gmail.com",
+    "cc": "",
+    "bcc": "xyz@gmail.com"
+  },
+  "org2": {
+    "to": "ghi@gmail.com",
+    "cc": "jkl@gmail.com",
+    "bcc": "mno@gmail.com"
+  },
+  "org3":{
+    "to": "pqr@gmail.com",
+    "cc": "stu@gmail.com,vwx@gmail.com",
+    "bcc": ""
+  }
+}
